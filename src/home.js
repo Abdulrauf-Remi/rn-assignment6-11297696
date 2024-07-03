@@ -156,8 +156,8 @@ const styles = StyleSheet.create({
     position: 'absolute',
     bottom: 5,
     right: 10,
-    width: 30, // Adjust width as needed
-    height: 30, // Adjust height as needed
+    width: 30, 
+    height: 30,
     //resizeMode: 'contain',
     
   },
@@ -165,7 +165,7 @@ const styles = StyleSheet.create({
 });
 
 
-//save data
+
 let cartItems = []
 
 async function save(value) { 
@@ -179,6 +179,6 @@ async function save(value) {
   }
 }
 
-//retrieve data
+
 
 

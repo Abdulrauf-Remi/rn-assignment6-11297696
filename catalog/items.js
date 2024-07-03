@@ -5,7 +5,7 @@ export const items = [
         image: require("./assets/dress1.png"),
         price: "$120",
         description: "reversible angora cardigan",
-        additional_info: "Office wear for you office"
+        additional_info: "Bussiness wear to make you look good "
     },
     {
         id: 2,
@@ -13,7 +13,7 @@ export const items = [
         image: require(`./assets/dress2.png`),
         price: "$120",
         description: "reversible angora cardigan",
-        additional_info: "Office wear for you office" 
+        additional_info: "Bussiness wear to make you look good" 
     },
     {
         id: 3,
