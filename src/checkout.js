@@ -67,10 +67,10 @@ if (!fontsLoaded) {
     <View style={styles.container}>
       <View style={styles.topBar}>
        
-        <Image style={styles.logo} source={require('./assets/Logo.png')} />
+        <Image style={styles.logo} source={require('../assets/Logo.png')} />
         
         <TouchableOpacity onPress={handleHomePress}>
-        <Image style={[styles.icon, {marginRight:15}]} source={require('./assets/Search.png')} />
+        <Image style={[styles.icon, {marginRight:15}]} source={require('../assets/Search.png')} />
         </TouchableOpacity>
       </View>
       <View style={styles.infoBar}>
@@ -86,7 +86,7 @@ if (!fontsLoaded) {
           <View style={[styles.catalog]}>
             <Image style={styles.itemImage} source={item.image} />
             <TouchableOpacity onPressIn={ () =>{removeItem(item.name); console.log("cartItems: ", cartItems)}}>
-              <Image style={styles.removeFromCart} source={require('./assets/remove.png')} />
+              <Image style={styles.removeFromCart} source={require('../assets/remove.png')} />
             </TouchableOpacity>
            <View style={styles.itemInfo}>
            <Text style={[styles.itemName,{fontFamily: 'ArefRuqaaInk_400Regular'}]}>{item.name.toUpperCase()}</Text>

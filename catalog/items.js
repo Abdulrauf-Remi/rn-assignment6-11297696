@@ -2,7 +2,7 @@ export const items = [
     {
         id: 1,
         name: "Office Wear",
-        image: require("./assets/dress1.png"),
+        image: require("../assets/dress1.png"),
         price: "$120",
         description: "reversible angora cardigan",
         additional_info: "Bussiness wear to make you look good "
@@ -10,7 +10,7 @@ export const items = [
     {
         id: 2,
         name: "Black",
-        image: require(`./assets/dress2.png`),
+        image: require(`../assets/dress2.png`),
         price: "$120",
         description: "reversible angora cardigan",
         additional_info: "Bussiness wear to make you look good" 
@@ -18,7 +18,7 @@ export const items = [
     {
         id: 3,
         name: "Church Wear",
-        image: require("./assets/dress3.png"),
+        image: require("../assets/dress3.png"),
         price: "$120",
         description: "reversible angora cardigan",
         additional_info: "Recycle Boucle Knit Cardigan Pink"
@@ -26,7 +26,7 @@ export const items = [
     {
         id: 4,
         name: "Lamerei",
-        image: require(`./assets/dress4.png`),
+        image: require(`../assets/dress4.png`),
         price: "$120",
         description: "reversible angora cardigan"   ,
         additional_info: "Recycle Boucle Knit Cardigan Pink"
@@ -34,7 +34,7 @@ export const items = [
     {
         id: 5,
         name: "21WN",
-        image: require(`./assets/dress5.png`),
+        image: require(`../assets/dress5.png`),
         price: "$120",
         description: "reversible angora cardigan" ,
         additional_info: "Recycle Boucle Knit Cardigan Pink"  
@@ -42,7 +42,7 @@ export const items = [
     {
         id: 6,
         name: "Lopo",
-        image: require(`./assets/dress6.png`),
+        image: require(`../assets/dress6.png`),
         price: "$120",
         description: "reversible angora cardigan" ,
         additional_info: "Recycle Boucle Knit Cardigan Pink"  
@@ -50,7 +50,7 @@ export const items = [
     {
         id: 7,
         name: "21WN",
-        image: require(`./assets/dress7.png`),
+        image: require(`../assets/dress7.png`),
         price: "$120",
         description: "reversible angora cardigan",
         additional_info: "Recycle Boucle Knit Cardigan Pink"   
@@ -58,7 +58,7 @@ export const items = [
     {
         id: 8,
         name: "lame",
-        image: require("./assets/dress3.png"),
+        image: require("../assets/dress3.png"),
         price: "$120",
         description: "reversible angora cardigan",
         additional_info: "Recycle Boucle Knit Cardigan Pink"
